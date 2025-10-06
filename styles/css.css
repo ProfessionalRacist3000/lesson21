@@ -1,0 +1,134 @@
+header {
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+  margin-inline: -10px;
+  padding: 10px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+
+#logo {
+  height: 50px;
+  width: 50px;
+}
+
+#h11 {
+  position: absolute;
+  left: 100px;
+}
+
+#choose {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-inline: auto;
+  display: flex;
+  background-color: lightgrey;
+  color: lightgrey;
+  text-decoration: solid;
+  height: 500px;
+  border-radius: 10px;
+}
+
+#choose h1 {
+  text-shadow: 0px 0px 10px black;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.card-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
+
+table,
+th,
+td {
+  width: 80%;
+  margin: 20px;
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin-left: 180px;
+  text-align: center;
+}
+
+th {
+  background-color: lightgrey;
+  padding: 10px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: lightgrey;
+  width: 600px;
+  margin-left: 120px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 400px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: grey;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
